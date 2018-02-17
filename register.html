@@ -6,7 +6,9 @@
     
    body{
     	background-color: white;
-    	background-size: 900px 850px;
+    	background-size: cover;
+      margin: 0;
+      padding: 0;
 
     }
 
@@ -80,7 +82,7 @@
 <br>
  <br>
 
-  <label for>Gender</label>
+  <label for>Gender:</label>
   <input type="radio" style="margin-right:15px;" name="sex" value="male">Male
   <input type="radio" style="margin-left:20px;" name="sex" value="female">Female
   <br>
@@ -115,7 +117,7 @@
   <label for>Residential add:</label>
   <input type="text" name="resident">
 
-  <label for>Street Name</label>
+  <label for>Street Name:</label>
   <input type="text" name="street">
   </div>
 
@@ -130,8 +132,8 @@
   <label for>City:</label>
   <input type="text" name="city">
 
-  <label for>Region</label>
-  <input type="text" name="region" style="margin-left:20px;">
+  <label for>Region:</label>
+  <input type="text" name="region" style="margin-left:60px;">
 </div>
 <br>
 <br>
@@ -141,10 +143,59 @@
 <div>
   <h3>Important Information:</h3>
 </div>
+<label for>How proficient is your English?</label>
+<br>
+  <input type="radio"  name="quality" value="average">Average
+<br>
+  <input type="radio"  name="quality" value="good">Good
+<br>
+  <input type="radio"  name="quality" value="excellent">Excellent
+
+  <br>
+  <br>
+
+  <label for>Do you own a car?</label>
+  <br>
+  <input type="radio"  name="choice" value="yes">Yes
+<br>
+  <input type="radio"  name="choice" value="no">No
+<br>
 <br>
 
-<label for>Upload passport pic:</label>
+<label for>Do you have any disability?</label>
+  <br>
+  <input type="radio"  name="choice" value="no">No
+<br>
+<br>
+  <input type="radio"  name="choice" value="yes">Yes
+ If yes, indicate which one:
+ <br>
+ <br>
+ <input type="radio"  name="disability" value="visually impaired">Visually impaired
+<br>
+  <input type="radio"  name="disability" value="hearing">Hearing impaired
+  <br>
+  <input type="radio"  name="disability" value="hands">Hand impairment
+<br>
+  <input type="radio"  name="disability" value="legs">Leg impairment
+  <br>
+
+<br>
+<br>
+<br>
+
+
+
+
+<label for>Upload passport picture:</label>
+<br>
 <input type="file" name="pic" accept="image/*">
+<br>
+<br>
+<br>
+
+
+<button type="button" style="text-align:center;color:grey;margin-left:550px;font-size:18px;">Register</button>
 
 
 
